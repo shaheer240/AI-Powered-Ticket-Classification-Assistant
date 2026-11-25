@@ -1,0 +1,11 @@
+,order_tracking,order_change_cancel,delivery_problem,refund_request,payment_issue,invoice_billing,account_access,account_update,product_complaint,general_inquiry
+order_tracking,2,0,0,0,0,0,0,0,0,0
+order_change_cancel,0,1,0,0,0,0,0,0,0,1
+delivery_problem,0,0,0,0,0,0,0,0,0,2
+refund_request,0,0,0,1,0,0,0,0,0,1
+payment_issue,0,0,0,0,1,0,0,0,0,1
+invoice_billing,0,0,0,0,0,2,0,0,0,0
+account_access,0,0,0,0,0,0,1,0,0,1
+account_update,0,0,0,0,0,0,0,2,0,0
+product_complaint,0,0,0,0,0,0,0,0,1,1
+general_inquiry,0,0,0,0,0,0,0,0,0,2

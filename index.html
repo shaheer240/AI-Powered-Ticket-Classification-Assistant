@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ticket assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Ticket assistant</h1>
+      <p>Paste a customer ticket to get a suggested category and a one-sentence summary. Results are suggestions for a human to review.</p>
+    </header>
+
+    <section class="panel">
+      <label for="sample">Sample ticket</label>
+      <select id="sample">
+        <option value="">Write my own</option>
+      </select>
+
+      <label for="ticket">Ticket text</label>
+      <textarea id="ticket" rows="6" placeholder="e.g. I placed order #48213 four days ago and the tracking page still says 'label created'."></textarea>
+
+      <div class="row">
+        <div>
+          <label for="version">Prompt version</label>
+          <select id="version">
+            <option value="v2">v2 (detailed)</option>
+            <option value="v1">v1 (basic)</option>
+          </select>
+        </div>
+        <div>
+          <label for="simulate">Test scenario</label>
+          <select id="simulate">
+            <option value="">Normal request</option>
+            <option value="backend_down">Simulate backend failure</option>
+            <option value="bad_output">Simulate invalid model output</option>
+          </select>
+        </div>
+      </div>
+
+      <button id="analyze" type="button">Analyze ticket</button>
+    </section>
+
+    <div id="error" class="error" role="alert" hidden></div>
+
+    <section id="result" class="panel result" hidden>
+      <p class="label">Category</p>
+      <p id="category" class="category"></p>
+      <p class="label">Summary</p>
+      <p id="summary"></p>
+      <p id="meta" class="meta"></p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

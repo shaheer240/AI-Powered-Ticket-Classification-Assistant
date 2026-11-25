@@ -1,0 +1,11 @@
+category,meaning,example
+order_tracking,Customer wants to know where an order is or its shipping status.,Where is my package? Tracking has not updated.
+order_change_cancel,Customer wants to change or cancel an order that is not delivered yet.,Please cancel order 52944.
+delivery_problem,"Something went wrong with the delivery itself: late, lost or wrong place.",The courier says delivered but nothing arrived.
+refund_request,Customer asks for a refund or asks about a refund that has not arrived.,I returned the shoes and still have no refund.
+payment_issue,Problems paying at checkout or being charged incorrectly.,I was charged twice for the same order.
+invoice_billing,"Requests about invoices, receipts or billing details.",Please send me the invoice for order 44872.
+account_access,"Customer cannot log in, reset a password or register.",The password reset email never arrives.
+account_update,Customer wants to change or delete account details and settings.,Please update my phone number.
+product_complaint,"The product is damaged, defective or not as described.",The kettle leaks from the bottom.
+general_inquiry,"General questions about the store, shipping rules or contacting support.",What are your support opening hours?

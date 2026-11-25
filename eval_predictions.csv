@@ -1,0 +1,21 @@
+id,ticket,expected_category,keyword_baseline,tfidf_nearest,mock_v1,mock_v2
+T009,Please help me track my order number 61007. The website just shows a blank page when I enter it.,order_tracking,order_tracking,order_tracking,order_tracking,order_tracking
+T010,Has my order been dispatched yet? I haven't seen any tracking details.,order_tracking,order_tracking,refund_request,order_tracking,order_tracking
+T019,Could you swap the sneakers in order 58320 for size 43 instead of 42? It hasn't shipped yet.,order_change_cancel,general_inquiry,order_change_cancel,general_inquiry,general_inquiry
+T020,I want to cancel my order placed two hours ago because I changed my mind.,order_change_cancel,order_change_cancel,order_change_cancel,order_change_cancel,order_change_cancel
+T029,"Delivery says completed yesterday, but I never received anything and no one rang my bell.",delivery_problem,general_inquiry,order_change_cancel,delivery_problem,general_inquiry
+T030,My shipment is over a week late and the promised delivery date has passed twice.,delivery_problem,delivery_problem,delivery_problem,delivery_problem,general_inquiry
+T039,I sent back my jacket three weeks ago and the money has still not been returned to me.,refund_request,general_inquiry,refund_request,refund_request,general_inquiry
+T040,"Please process a refund for my order, the wrong product was sent and I want to return it.",refund_request,refund_request,refund_request,refund_request,refund_request
+T049,I see two identical charges on my card statement for one purchase.,payment_issue,general_inquiry,invoice_billing,payment_issue,general_inquiry
+T050,Checkout rejects my debit card every time and says 'payment could not be processed'.,payment_issue,payment_issue,payment_issue,payment_issue,payment_issue
+T059,Could you email me a copy of the invoice for my purchase from last month?,invoice_billing,invoice_billing,order_tracking,invoice_billing,invoice_billing
+T060,The billing address on my invoice is outdated. Please reissue it with the new address.,invoice_billing,invoice_billing,account_update,invoice_billing,invoice_billing
+T069,"I can't sign in to my account, the page says invalid credentials even after resetting my password.",account_access,account_access,order_tracking,account_access,account_access
+T070,My registration keeps failing at the confirm email step and I never get the confirmation link.,account_access,general_inquiry,order_tracking,general_inquiry,general_inquiry
+T079,I'd like to update my default shipping address in my account settings.,account_update,account_update,account_update,account_update,account_update
+T080,Please close my account permanently and delete my personal information.,account_update,general_inquiry,account_update,account_update,account_update
+T089,"The kettle I received leaks water from the bottom, the quality is really disappointing.",product_complaint,general_inquiry,product_complaint,product_complaint,product_complaint
+T090,The shoes arrived with the sole coming off. This product is clearly defective.,product_complaint,product_complaint,delivery_problem,general_inquiry,general_inquiry
+T099,"Do you offer international shipping to the UK, and what are the delivery options?",general_inquiry,general_inquiry,general_inquiry,general_inquiry,general_inquiry
+T100,Could you tell me what hours your support team is available during the weekend?,general_inquiry,general_inquiry,general_inquiry,general_inquiry,general_inquiry

@@ -1,0 +1,101 @@
+id,ticket,expected_category,split
+T001,"Hi, I placed order #48213 four days ago and the tracking page still says 'label created'. Where is my package?",order_tracking,dev
+T002,"Can you tell me where my parcel is right now? The tracking number 7781-229 shows no updates since Monday.",order_tracking,dev
+T003,"I never got a shipping confirmation email for my order. How can I check the status of my purchase?",order_tracking,dev
+T004,"What is the current status of order 55120? I need to know if it has left your warehouse.",order_tracking,dev
+T005,"The tracking link in my email gives an error. Can you send me a working link to follow my order?",order_tracking,dev
+T006,"Is there a way to see the live location of my delivery? I want to plan when to be home.",order_tracking,dev
+T007,"My order has said 'in transit' since last week. Can someone check where it is?",order_tracking,dev
+T008,"I ordered a jacket on the 3rd and want an update on when it will be shipped out.",order_tracking,dev
+T009,"Please help me track my order number 61007. The website just shows a blank page when I enter it.",order_tracking,eval
+T010,"Has my order been dispatched yet? I haven't seen any tracking details.",order_tracking,eval
+T011,"I accidentally ordered the wrong size. Can I change the size on order #40318 before it ships?",order_change_cancel,dev
+T012,"Please cancel my order 52944, I found the same item cheaper somewhere else.",order_change_cancel,dev
+T013,"I want to add one more item to my existing order placed this morning. Is that possible?",order_change_cancel,dev
+T014,"Can I change the color of the backpack I ordered yesterday?",order_change_cancel,dev
+T015,"I need to cancel the whole order I made last night, it was a duplicate purchase.",order_change_cancel,dev
+T016,"Is it still possible to modify my order? I entered the wrong quantity for the notebooks.",order_change_cancel,dev
+T017,"I'd like to remove one item from my order before it gets packed.",order_change_cancel,dev
+T018,"My order #47001 was placed by mistake. Please stop it from being processed.",order_change_cancel,dev
+T019,"Could you swap the sneakers in order 58320 for size 43 instead of 42? It hasn't shipped yet.",order_change_cancel,eval
+T020,"I want to cancel my order placed two hours ago because I changed my mind.",order_change_cancel,eval
+T021,"The courier marked my parcel as delivered but nothing is at my door.",delivery_problem,dev
+T022,"My order was supposed to arrive on Friday and it is now five days late.",delivery_problem,dev
+T023,"The delivery driver left my package outside in the rain and the box is soaked.",delivery_problem,dev
+T024,"My parcel was delivered to the wrong address, a neighbour two streets away got it.",delivery_problem,dev
+T025,"The courier tried to deliver while I was at work and never left a notice. How do I reschedule?",delivery_problem,dev
+T026,"Only two of the three boxes in my shipment arrived. The third one is missing.",delivery_problem,dev
+T027,"The delivery person was rude and refused to bring the package up to my apartment door.",delivery_problem,dev
+T028,"My package has been stuck at the local depot for a week and nobody is delivering it.",delivery_problem,dev
+T029,"Delivery says completed yesterday, but I never received anything and no one rang my bell.",delivery_problem,eval
+T030,"My shipment is over a week late and the promised delivery date has passed twice.",delivery_problem,eval
+T031,"I returned the shoes two weeks ago and still haven't received my refund.",refund_request,dev
+T032,"I would like a refund for order #43990, the item doesn't fit and I'm sending it back.",refund_request,dev
+T033,"How long does a refund take after the returned item reaches your warehouse?",refund_request,dev
+T034,"Please refund me for the desk lamp, it stopped working after two days.",refund_request,dev
+T035,"I was charged for an item that was out of stock and cancelled. I want that money back.",refund_request,dev
+T036,"I'd like to return my headphones and get my money back. How do I start the return?",refund_request,dev
+T037,"My refund of $35 was supposed to arrive last week but my bank shows nothing.",refund_request,dev
+T038,"Can I get a refund to my original card instead of store credit?",refund_request,dev
+T039,"I sent back my jacket three weeks ago and the money has still not been returned to me.",refund_request,eval
+T040,"Please process a refund for my order, the wrong product was sent and I want to return it.",refund_request,eval
+T041,"My credit card was declined at checkout even though I have enough balance.",payment_issue,dev
+T042,"I was charged twice for the same order, please check my payment.",payment_issue,dev
+T043,"The payment page keeps freezing when I click 'Pay now'.",payment_issue,dev
+T044,"Why can't I select cash on delivery as a payment method at checkout?",payment_issue,dev
+T045,"I got a message that my payment failed but the money left my account.",payment_issue,dev
+T046,"The discount code isn't applied at payment and I get charged the full price.",payment_issue,dev
+T047,"Apple Pay shows an error each time I try to pay for my cart.",payment_issue,dev
+T048,"My bank sent a verification code for the payment but the checkout page timed out.",payment_issue,dev
+T049,"I see two identical charges on my card statement for one purchase.",payment_issue,eval
+T050,"Checkout rejects my debit card every time and says 'payment could not be processed'.",payment_issue,eval
+T051,"Can you send me the invoice for order #44872? I need it for my company expenses.",invoice_billing,dev
+T052,"The invoice shows the wrong billing name. Please correct it.",invoice_billing,dev
+T053,"I need a VAT invoice with our company tax number on it.",invoice_billing,dev
+T054,"Where can I download the receipt for my last purchase?",invoice_billing,dev
+T055,"My invoice total doesn't match what I paid, there is an extra shipping fee listed.",invoice_billing,dev
+T056,"Please resend the invoice PDF, the email attachment is corrupted.",invoice_billing,dev
+T057,"I need the invoice issued in my company's name instead of my personal name.",invoice_billing,dev
+T058,"Can you explain the 'service charge' line item on my bill?",invoice_billing,dev
+T059,"Could you email me a copy of the invoice for my purchase from last month?",invoice_billing,eval
+T060,"The billing address on my invoice is outdated. Please reissue it with the new address.",invoice_billing,eval
+T061,"I forgot my password and the reset email never arrives.",account_access,dev
+T062,"My account is locked after too many login attempts.",account_access,dev
+T063,"I can't log in, it says my email is not registered, but I have ordered before.",account_access,dev
+T064,"The verification code for two-factor login isn't being sent to my phone.",account_access,dev
+T065,"I'm unable to sign in on the app, it just keeps loading.",account_access,dev
+T066,"I got an error when creating an account: 'email already in use'.",account_access,dev
+T067,"My login suddenly stopped working after I changed phones.",account_access,dev
+T068,"The password reset link says it has expired every time I click it.",account_access,dev
+T069,"I can't sign in to my account, the page says invalid credentials even after resetting my password.",account_access,eval
+T070,"My registration keeps failing at the confirm email step and I never get the confirmation link.",account_access,eval
+T071,"I want to change the email address on my account to my new one.",account_update,dev
+T072,"Please update my phone number in my profile.",account_update,dev
+T073,"How do I delete my account and remove my data?",account_update,dev
+T074,"I'd like to add a second delivery address to my profile.",account_update,dev
+T075,"Can you change my account name? I got married and want to use my new surname.",account_update,dev
+T076,"I want to unsubscribe from your promotional newsletter.",account_update,dev
+T077,"Please switch my account to a business profile.",account_update,dev
+T078,"I need to remove my saved credit card from my account.",account_update,dev
+T079,"I'd like to update my default shipping address in my account settings.",account_update,eval
+T080,"Please close my account permanently and delete my personal information.",account_update,eval
+T081,"The laptop sleeve I received has a broken zipper after one use.",product_complaint,dev
+T082,"The phone case I bought looks nothing like the pictures on your website.",product_complaint,dev
+T083,"I received a damaged vase, the glass base is cracked.",product_complaint,dev
+T084,"The item I got is the wrong color and it is missing the charging cable.",product_complaint,dev
+T085,"The quality of the t-shirt is terrible, it shrank after the first wash.",product_complaint,dev
+T086,"My blender stopped working after two days and makes a burning smell.",product_complaint,dev
+T087,"I'm very unhappy with this purchase. The product description was misleading.",product_complaint,dev
+T088,"The headphones have a loud crackling sound in the left ear since day one.",product_complaint,dev
+T089,"The kettle I received leaks water from the bottom, the quality is really disappointing.",product_complaint,eval
+T090,"The shoes arrived with the sole coming off. This product is clearly defective.",product_complaint,eval
+T091,"What are your customer service opening hours?",general_inquiry,dev
+T092,"Do you ship to Canada and how long does it usually take?",general_inquiry,dev
+T093,"Do you have a physical store I can visit in Lahore?",general_inquiry,dev
+T094,"Do you offer gift wrapping and gift cards?",general_inquiry,dev
+T095,"Is the standing desk model X200 going to be back in stock soon?",general_inquiry,dev
+T096,"How can I contact a human agent? The chatbot isn't answering my question.",general_inquiry,dev
+T097,"Do you have a student discount program?",general_inquiry,dev
+T098,"What phone number or email can I use to reach your support team?",general_inquiry,dev
+T099,"Do you offer international shipping to the UK, and what are the delivery options?",general_inquiry,eval
+T100,"Could you tell me what hours your support team is available during the weekend?",general_inquiry,eval
